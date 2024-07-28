@@ -12,7 +12,15 @@
   resolved "https://registry.yarnpkg.com/@adraffy/ens-normalize/-/ens-normalize-1.10.0.tgz#d2a39395c587e092d77cbbc80acf956a54f38bf7"
   integrity sha512-nA9XHtlAkYfJxY7bce8DcN7eKxWWCWkU+1GR9d+U6MbNpfwQp8TI7vqOsBsMcHoT4mBu2kypKoSKnghEzOOq5Q==
 
-"@alchemy/aa-accounts@3.14.1", "@alchemy/aa-accounts@^3.14.1":
+"@alchemy/aa-accounts@3.18.2":
+  version "3.18.2"
+  resolved "https://registry.yarnpkg.com/@alchemy/aa-accounts/-/aa-accounts-3.18.2.tgz#bbb9e08edaedb305211399f0fb4c5288dc4333ca"
+  integrity sha512-QrynT78kcVMKkCLmGFsxRNQpW2Caz1yNEwbIMOVR+vVOC41WKRqPTnqgoGmIi0XLcsO7OWCXymTt/muiOt1w1A==
+  dependencies:
+    "@alchemy/aa-core" "^3.18.2"
+    viem "2.8.6"
+
+"@alchemy/aa-accounts@^3.14.1":
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/@alchemy/aa-accounts/-/aa-accounts-3.14.1.tgz#8d406c5f928db328b3a96a2d1a800d5a506d9e73"
   integrity sha512-2dTnnpBMyT15LCo4NGiVIakqVJhhnv9pivsN5hSE08Vm2crKl9BVQ6MPQHM5qsqzKB5h4csIM9yHBRFbAbp0xQ==
@@ -56,6 +64,16 @@
   version "3.12.3"
   resolved "https://registry.yarnpkg.com/@alchemy/aa-core/-/aa-core-3.12.3.tgz#25ddd6533f0fe0590c28eba7d0a444c4f168ea64"
   integrity sha512-nU2pvGIsWI9Wwo3aNcfke1ZJJiec5rmqkh7McTRK6G8ff1gE0yGZUBzd/73rsdWGmhBN8G5VmX0KN016+amzVQ==
+  dependencies:
+    abitype "^0.8.3"
+    eventemitter3 "^5.0.1"
+    viem "2.8.6"
+    zod "^3.22.4"
+
+"@alchemy/aa-core@^3.18.2":
+  version "3.18.2"
+  resolved "https://registry.yarnpkg.com/@alchemy/aa-core/-/aa-core-3.18.2.tgz#b11f189404e97132f5affab938b3d4040c99f475"
+  integrity sha512-uXVpPz5tpBiARC4QCj/MAK45J09Pt3pJQpmFDiHSj4ZEcQB7ZraP2z8Bi6jLMkMDyHPjUiTeJf+aRV3Gqyeunw==
   dependencies:
     abitype "^0.8.3"
     eventemitter3 "^5.0.1"
